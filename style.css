@@ -66,3 +66,32 @@ img{
     display:block;
     margin:auto;
 }
+/* รูปโปรไฟล์ */
+.profile{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.profile img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #fff;
+    box-shadow:0 0 30px rgba(183,128,255,.8);
+}
+
+/* ข้อมูลส่วนตัว */
+.info{
+    text-align:center;
+}
+
+.info h2{
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.info p{
+    margin:10px 0;
+    font-size:18px;
+}
