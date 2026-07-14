@@ -28,3 +28,27 @@
     bottom:-80px;
     left:40%;
 }
+/* เมนู */
+.navbar{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    margin:25px 0;
+}
+
+.navbar a{
+    background:#e9d5ff;      /* สีม่วงอ่อน */
+    color:#6b21a8;
+    text-decoration:none;
+    padding:12px 22px;
+    border-radius:30px;
+    font-weight:600;
+    transition:0.3s;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.navbar a:hover{
+    background:#d8b4fe;
+    transform:translateY(-4px);
+    box-shadow:0 8px 20px rgba(155,89,182,.3);
+}
